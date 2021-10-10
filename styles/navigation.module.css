@@ -1,0 +1,22 @@
+.nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media(min-width:768px) {
+    .nav{
+        flex-direction: row;
+    }
+
+    .nav li {
+        margin-right: 25px;
+    }
+    .nav li:last-child {
+        margin-right: 0;
+    }
+
+    .nav a:hover {
+        color: #00B0FF;
+    }
+}

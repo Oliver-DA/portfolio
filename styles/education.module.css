@@ -1,0 +1,88 @@
+.container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    display: none;
+}
+
+@media(min-width:768px) {
+
+        
+    .container::after {
+        content:"Education";
+        position:absolute;
+        color: #BBBBBB;
+        font-size: 180px;
+        top: 75%;
+        right: 42%;
+        font-weight: bold;
+        opacity: .5;
+        z-index: -3;
+    }
+
+    .image {
+        display: block;
+    }
+    
+    .cards {
+        width: 100%;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .image {
+        width: 600px;
+        height: 400px;
+        position: absolute;
+        top: 58%;
+        left: 70%;
+        opacity: .8;
+        z-index: -1;
+    }
+}
+
+
+.desc {
+    color: rgb(75, 74, 74);
+    text-align: center;
+    font-size:30px ;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+
+.certificate {
+    display: block;
+    background-color: #00B0FF;
+    border-radius: 50px;
+    padding: 10px 25px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    transition: all .2s ease-in-out;
+    margin-bottom:30px
+}
+
+
+@media(min-width:768px) {
+    .certificate:hover {
+        background-color: #018ecf;
+    }
+}
+
+
+.educationCard {
+    display: flex;flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.671);
+    box-shadow: 1px 1px 2px 0px rgb(110, 109, 109);
+    margin: 40px 0 40px 0;
+    width:300px;
+    padding:10px
+}
