@@ -69,11 +69,10 @@
         align-items: center;
     }
 
-
-
     .certificate {
         font-size: 30px;
     }
+    
     .certificate:hover {
         background-color: #018ecf;
     }
