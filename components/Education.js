@@ -10,7 +10,7 @@ export default function Education() {
       <div className={styles.cards}>
         <div className={`${styles.educationCard} animate__animated animate__fadeInRight`}>
           <Image
-            src={"/images/Treehouse-logo.png"}
+            src={"/images/treehouse-logo.png"}
             width={150}
             height={150}
             alt="education-ilustration"
