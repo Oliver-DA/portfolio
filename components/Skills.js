@@ -37,7 +37,7 @@ export default function Skills() {
     <div className={styles.container}>
       <div>
         <h1 className={`${styles.title} animate__animated animate__fadeInLeft`}>My Skills</h1>
-        <div className={`${styles.skills} animate__animated animate__fadeInUp`}>
+        <div className={`${styles.skills} animate__animated animate__fadeInLeft`}>
 
           {
             skillsData.map((sk,i) => (
@@ -52,10 +52,10 @@ export default function Skills() {
         </div>
       </div>
 
-      <div className={`${styles.image} animate__animated animate__fadeInUp`}>
+      <div className={`${styles.image} animate__animated animate__fadeInDown`}>
         <Image
           src={"/images/skills-back.png"}
-          alt="skills"
+          alt="skills-image"
           width={900}
           height={700}
         />

@@ -63,7 +63,7 @@ export default function Projects() {
       <div className={`${styles.image} animate__animated animate__fadeInUp`}>
         <Image
           src={"/images/projects.png"}
-          alt="projects"
+          alt="projects-image"
           width={700}
           height={700}
           quality="100"
@@ -72,7 +72,7 @@ export default function Projects() {
       <div className={styles.imageTwo}>
         <Image
           src={"/images/p2.png"}
-          alt="projects"
+          alt="projects-image-1"
           width={700}
           height={700}
           quality="100"
@@ -81,7 +81,7 @@ export default function Projects() {
       <div className={styles.imageThree}>
         <Image
           src={"/images/p3.png"}
-          alt="projects"
+          alt="projects-image-2"
           width={700}
           height={600}
           quality="100"

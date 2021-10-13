@@ -23,7 +23,7 @@ export default function About() {
         >
           <Image
             src={"/images/about.png"}
-            alt="home-ilustration"
+            alt="about-ilustration"
             width={800}
             height={700}
             quality={100}

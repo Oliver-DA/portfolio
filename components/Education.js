@@ -13,7 +13,7 @@ export default function Education() {
             src={"/images/Treehouse-logo.png"}
             width={150}
             height={150}
-            alt="education"
+            alt="education-ilustration"
             quality = {100}
 
           />
@@ -27,7 +27,7 @@ export default function Education() {
             src={"/images/udemy-logo.png"}
             width={150}
             height={150}
-            alt="education"
+            alt="education-ilustration-1"
             quality = {100}
 
           />
@@ -39,7 +39,7 @@ export default function Education() {
         <div className={`${styles.image} animate__animated animate__fadeInDown`}>
           <Image
             src={"/images/education.png"}
-            alt="education"
+            alt="education-ilustration-2"
             width = {600}
             height={400}
             quality = {100}

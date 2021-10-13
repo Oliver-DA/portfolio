@@ -23,7 +23,7 @@ export default function Contact() {
           src={"/images/email.png"}
           width={400}
           height={400}
-          alt="contact"
+          alt="contact-ilustration"
           quality="100"
         />
       </div>
@@ -34,7 +34,7 @@ export default function Contact() {
           src={"/images/email1.png"}
           width={400}
           height={400}
-          alt="contact"
+          alt="contact-ilustration-1"
           quality="100"
         />
       </div>
