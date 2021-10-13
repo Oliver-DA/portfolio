@@ -2,10 +2,14 @@
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 50px;
+    text-align: center;
+    position: relative;
 }
 
 .title::after {
     content: "";
+    position: absolute;
+    left: 15%;
     width: 70px;
     height: 5px;
     background-color: #00B0FF;
@@ -16,42 +20,7 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-    
 }
-
-.image {
-    display: none;
-}
-
-@media(min-width:768px) {
-
-    .container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .iconImage {
-        margin-top: 20px;
-    }
-
-    .title {
-        display: inline-block;
-    }
-
-    .skills {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .image {
-        z-index: -100;
-        display:block;
-        align-self: end;
-        margin-top: 200px;
-    }
-  
-
-}
-
 
 .container::after {
     content:"My Skills";
@@ -64,12 +33,9 @@
     z-index: -3;
 }
 
-@media(min-width:768px) {
-    
-    .container::after {
-        font-size: 240px;
-        top: 20%;
-    }
+
+.image {
+    display: none;
 }
 
 .skill{
@@ -108,5 +74,50 @@
 
     .skill h2 {
         text-align: left;
+    }
+}
+
+@media(min-width:768px) {
+
+
+    .iconImage {
+        margin-top: 20px;
+    }
+
+    .title {
+        display: inline-block;
+    }
+
+    .title::after {
+        left: 0;
+    }
+
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+  
+}
+
+
+@media(min-width:768px) {
+    
+    .container::after {
+        font-size: 240px;
+        top: 20%;
+    }
+}
+
+@media(min-width: 1200px){
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 500px;
+    }
+    .image {
+        z-index: -100;
+        display:block;
+        align-self: end;
+        margin-top: 200px;
     }
 }

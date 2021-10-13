@@ -17,7 +17,7 @@ export default function Contact() {
     <div className={styles.container}>
 
       <div
-        className={`${styles.image} ${styles.imgTwo} animate__animated animate__fadeInLeft`}
+        className={`${styles.image} animate__animated animate__fadeInRight`}
       >
         <Image
           src={"/images/email.png"}
@@ -27,8 +27,19 @@ export default function Contact() {
           quality="100"
         />
       </div>
+      <div
+        className={`${styles.imageTwo} animate__animated animate__fadeInRight`}
+      >
+        <Image
+          src={"/images/email1.png"}
+          width={400}
+          height={400}
+          alt="contact"
+          quality="100"
+        />
+      </div>
 
-      <h1 className={styles.title}>Send me an email</h1>
+      <h1 className={styles.title}>Send me an email &#128235;</h1>
 
       <form className={`${styles.form} animate__animated animate__fadeInLeft`}>
 

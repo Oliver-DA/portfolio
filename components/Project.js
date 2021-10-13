@@ -2,7 +2,7 @@ import styles from "../styles/projects.module.css";
 import Link from "next/link";
 import Image from 'next/image';
 
-export default function Project({ name, desc, img, live_link, git_hub_link }) {
+export default function Project({ name, desc, img, live_link, git_hub_link,icon }) {
   return (
     <div className={styles.project}>
       <div className = {styles.projectImage}>
@@ -15,7 +15,7 @@ export default function Project({ name, desc, img, live_link, git_hub_link }) {
         />
       </div>
       <div>
-        <h1>{name}</h1>
+        <h1>{name}{icon}</h1>
         <p>{desc}</p>
 
         {live_link && (
@@ -31,7 +31,7 @@ export default function Project({ name, desc, img, live_link, git_hub_link }) {
         <Link href={`${git_hub_link}`}>
           <a target="_blank">
             <button className={`${styles.github} ${styles.btn}`}>
-              Git Hub{" "}
+              GitHub{" "}
             </button>
           </a>
         </Link>

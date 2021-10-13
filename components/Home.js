@@ -12,12 +12,12 @@ export default function Home() {
           <span className={styles.name}>Oliver Duran</span>
           <h1 className={styles.subHeader}>Full Stack Developer</h1>
           <p>
-            Hey There! &#128075; &#128516; I'm Oliver a self-taught Full Stack
+            Hey There! <span>&#128075;</span> <span>&#128516;</span> I am Oliver a self-taught Full Stack
             Developer and a long life learner and student with determination on
-            learning as much as I can, sharing it with other people &#127758;
+            learning as much as I can, sharing it with other people <span>&#127758;</span>
             and applying it to help, teach and motivate others on my way to
             become a professional in this industry since it is something that I
-            have always been passionate about &#128293;.
+            have always been passionate about <span>&#128293;</span>.
           </p>
         </div>
 
@@ -36,7 +36,7 @@ export default function Home() {
           <Link href={`https://github.com/Oliver-DA?tab=repositories`}>
             <a target="_blank">
               <button className={`${styles.button} ${styles.git}`}>
-                Git Hub <AiFillGithub className={styles.searchIcon} size={26} />{" "}
+                GitHub <AiFillGithub className={styles.searchIcon} size={26} />{" "}
               </button>
             </a>
           </Link>

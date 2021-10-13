@@ -10,7 +10,7 @@ export default function About() {
         <div className="animate__animated animate__fadeInLeft">
           <h1 className={styles.title}>About me</h1>
           <p>
-          Programming has always been in my mind since I knew about it, being able to bring solutions, fun, help, and connections between people with just a few lines of code it's just awesome. I always try to learn from other people and from myself this has indeed helped polish my teamwork skills and I could say that it is one of my biggest skills, being able to listen and actually put effort into understanding the point of view of the person talking to me.
+          <span>&#10024;</span>Programming has always been in my mind since I knew about it, being able to bring solutions, fun, help, and connections between people with just a few lines of code <span>&#128187;</span> it is just awesome <span>&#127775;</span> <span>&#128079;</span>. I always try to learn from other people and from myself this has indeed helped polish my teamwork skills and I could say that it is one of my biggest strengths <span>&#128170;</span> <span>&#127905;</span>, being able to listen and actually put effort into understanding the point of view of the person talking to me.
           </p>
           <Link href = "/contact">
             <a>

@@ -44,6 +44,10 @@
     margin:0 0 3px 3px;
 }
 
+.error {
+    color:#757575 ;
+    margin-bottom: 50px;
+}
 @media(min-width:768px) {
 
     .buttons {
@@ -56,10 +60,8 @@
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
     }
-
-    .errorTitle {
-        font-size: 80px;
-        color: #757575;
+    .error {
+        font-size: 30px;
     }
 
     .image {
@@ -83,6 +85,9 @@
     .subHeader {
         font-size: 30px;
     }
+    .home {
+        max-width: 100%;
+    }
 
 
     .button:hover {
@@ -97,6 +102,11 @@
     background-color: black;
 }
 
+@media(min-width: 1024px) {
+    .error {
+        font-size: 40px;
+    }
+}
 
 @media(min-width: 1200px) {
     .home {
