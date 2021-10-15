@@ -11,7 +11,6 @@ export default function Project({ name, desc, img, live_link, git_hub_link,icon 
           width = {400}
           height = {400}
           alt = "project-image"
-          quality = "100"
         />
       </div>
       <div>

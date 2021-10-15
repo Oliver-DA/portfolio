@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import Link from 'next/link';
 import styles from '../styles/navigation.module.css';
 import "animate.css";
@@ -5,10 +6,14 @@ import {useRouter} from 'next/router'
 
 export default function Navigation(){
 
+
+    //State
+    const [showNavBar, setShowNavBar] = useState(false);
     const router = useRouter();
     
     return (
-        <ul className = {styles.nav}>
+        
+        <ul className = {`${styles.nav} ${showNavBar ? "menu" : ""}`}>
             <li>
                 <Link href = "/projects">
                     <a className = {router.pathname === "/projects" ? "active" : ""}>Projects</a>

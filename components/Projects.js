@@ -28,7 +28,7 @@ export default function Projects() {
       icon: <span>&#128218;</span>,
       desc: "This is a book manager app using sqlite, sequelize and express as it's core allowing the user to create, update or delete books.",
       img: "/images/library.png",
-      live_link: "https://whispering-savannah-06035.herokuapp.com/books",
+      live_link: "https://enigmatic-beyond-39784.herokuapp.com/books",
       git_hub_link: "https://github.com/Oliver-DA/SQL-library-manager",
     },
     {
@@ -66,7 +66,6 @@ export default function Projects() {
           alt="projects-image"
           width={700}
           height={700}
-          quality="100"
         />
       </div>
       <div className={styles.imageTwo}>
@@ -75,7 +74,6 @@ export default function Projects() {
           alt="projects-image-1"
           width={700}
           height={700}
-          quality="100"
         />
       </div>
       <div className={styles.imageThree}>
@@ -84,7 +82,6 @@ export default function Projects() {
           alt="projects-image-2"
           width={700}
           height={600}
-          quality="100"
         />
       </div>
 

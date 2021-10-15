@@ -24,7 +24,6 @@ export default function Contact() {
           width={400}
           height={400}
           alt="contact-ilustration"
-          quality="100"
         />
       </div>
       <div
@@ -35,7 +34,6 @@ export default function Contact() {
           width={400}
           height={400}
           alt="contact-ilustration-1"
-          quality="100"
         />
       </div>
 

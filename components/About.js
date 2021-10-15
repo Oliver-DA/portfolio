@@ -26,7 +26,6 @@ export default function About() {
             alt="about-ilustration"
             width={800}
             height={700}
-            quality={100}
           />
         </div>
       </div>

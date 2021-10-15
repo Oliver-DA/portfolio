@@ -14,7 +14,7 @@ export default function Home() {
           <p>
             Hey There! <span>&#128075;</span> <span>&#128516;</span> I am Oliver a self-taught Full Stack
             Developer and a long life learner and student with determination on
-            learning as much as I can, sharing it with other people <span>&#127758;</span>
+            learning as much as I can, sharing it with other people <span>&#127758; </span>
             and applying it to help, teach and motivate others on my way to
             become a professional in this industry since it is something that I
             have always been passionate about <span>&#128293;</span>.
@@ -27,7 +27,6 @@ export default function Home() {
             alt="home-ilustration"
             width={1100}
             height={800}
-            quality={100}
           />
         </div>
         <div
@@ -43,7 +42,7 @@ export default function Home() {
 
           <Link href={`/projects`}>
             <a>
-              <button className={styles.button}>
+              <button className={`${styles.button} ${styles.search}`}>
                 My work{" "}
                 <AiOutlineSearch className={styles.searchIcon} size={25} />{" "}
               </button>

@@ -4,6 +4,10 @@
     flex-direction: column;
 }
 
+.menu {
+    display: none;
+}
+
 @media(min-width:768px) {
     .nav{
         flex-direction: row;

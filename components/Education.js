@@ -14,7 +14,6 @@ export default function Education() {
             width={150}
             height={150}
             alt="education-ilustration"
-            quality = {100}
 
           />
           <span className={styles.desc}>Full Stack JavaScript Developer</span>
@@ -28,7 +27,6 @@ export default function Education() {
             width={120}
             height={120}
             alt="education-ilustration-1"
-            quality = {100}
 
           />
           <span className={styles.desc}>
@@ -42,7 +40,6 @@ export default function Education() {
             alt="education-ilustration-2"
             width = {600}
             height={400}
-            quality = {100}
 
           />
         </div>

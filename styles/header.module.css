@@ -7,19 +7,16 @@
 
 
 .title {
-    font-size:50px;
+    font-size:40px;
     color:#00B0FF;
 }
+
 
 @media(min-width:768px) {
 
     .header {
         display: grid;
         grid-template-columns: repeat(2, 1fr) ;
-    }
-
-    .title {
-        font-size: 40px;
     }
 
 }
