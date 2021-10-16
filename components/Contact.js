@@ -35,7 +35,8 @@ export default function Contact() {
       <h1 className={styles.title}>Send me an email &#128235;</h1>
 
       <form action="https://formsubmit.co/ondagmsinfo@gmail.com" method = "POST" className={`${styles.form} animate__animated animate__fadeInLeft`}>
-        <input type="hidden" name="_next" value="http://localhost:3000/thanks"/>
+        <input type="hidden" name="_next" value="https://portfolio-two-bay-32.vercel.app/thanks"/>
+        <input type="hidden" name="_captcha" value="false" />
         <div className={styles.field}>
           <label>Name:</label>
           <input type="text" name="name" ref={nameRef} />
