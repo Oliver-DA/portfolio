@@ -10,10 +10,11 @@ export default function NotFound() {
           src={"/images/not-found.png"}
           width={800}
           height={700}
+          quality = {100}
         />
       </div>
       <div>
-        <h1 className = {styles.errorTitle}>page you were looking for could not be found</h1>
+        <h1 className = {styles.errorTitle}>The page you were looking for could not be found</h1>
       </div>
     </div>
   );
