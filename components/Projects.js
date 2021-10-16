@@ -16,6 +16,14 @@ export default function Projects() {
       git_hub_link: "https://github.com/Oliver-DA/full-stack-react-api",
     },
     {
+      name: "React node-send ",
+      icon: <span>&#128171;</span>,
+      img: "/images/node-send.png",
+      desc: "This is a clone of Firefox send with a few limitations on file size but you can still share files up to 10MB.",
+      live_link: "https://node-send-client-lemon.vercel.app/",
+      git_hub_link: "https://github.com/Oliver-DA/node-send-client",
+    },
+    {
       name: "Phrase Hunter Game ",
       icon: <span>&#127919;</span>,
       desc: " Try to guess the hidden word! with your keyboard or mouse, you have 5 lives left.",
