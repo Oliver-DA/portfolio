@@ -17,7 +17,7 @@ export default function Education() {
 
           />
           <span className={styles.desc}>Full Stack JavaScript Developer</span>
-          <Link href="#">
+          <Link href="https://www.credential.net/b69ef9f4-53e8-4fe4-8bc7-c63516f37b22#gs.dcjmg6">
             <a className={styles.certificate}>Certificate</a>
           </Link>
         </div>
