@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-
+    margin: 20px;
 }
 
 textarea {
@@ -12,8 +12,6 @@ textarea {
     outline: none;
     font-family: 'Poppins', sans-serif;
     border: 1px solid #00B0FF;
-
-
 }
 
 

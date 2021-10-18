@@ -7,8 +7,9 @@ import "animate.css";
 export default function Education() {
   return (
     <div className={styles.container}>
+      <h1 className = {`${styles.title} animate__animated animate__fadeInLeft`}>Education</h1>
       <div className={styles.cards}>
-        <div className={`${styles.educationCard} animate__animated animate__fadeInRight`}>
+        <div className={`${styles.educationCard} animate__animated animate__fadeInUp`}>
           <Image
             src={"/images/treehouse.png"}
             width={150}
@@ -21,7 +22,7 @@ export default function Education() {
             <a className={styles.certificate}>Certificate</a>
           </Link>
         </div>
-        <div className={`${styles.educationCard} animate__animated animate__fadeInRight`}>
+        <div className={`${styles.educationCard} animate__animated animate__fadeInUp`}>
           <Image
             src={"/images/udemy-logo.png"}
             width={120}
@@ -34,16 +35,6 @@ export default function Education() {
             development
           </span>
         </div>
-        <div className={`${styles.image} animate__animated animate__fadeInDown`}>
-          <Image
-            src={"/images/education.png"}
-            alt="education-ilustration-2"
-            width = {600}
-            height={400}
-
-          />
-        </div>
-
       </div>
     </div>
   );
