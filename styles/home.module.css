@@ -12,8 +12,6 @@
     text-align: center;
 }
 
-
-
 .subHeader {
     text-align: center;
     margin: 20px 0;
@@ -76,7 +74,6 @@
 
 @media(min-width: 768px) {
 
-
     .button {
         padding: 15px 15px;
         margin: 10% 50px 50px 0
@@ -90,10 +87,10 @@
     .subHeader {
         font-size: 30px;
     }
+
     .home {
         max-width: 100%;
     }
-
 
     .button:hover {
         background-color: #2a088a;
@@ -121,7 +118,6 @@
     .home {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 1fr;
         gap: 40px;
     }
 
@@ -142,6 +138,23 @@
 
     .subHeader {
         text-align: left;
+    }
+}
+
+@media(min-width: 1400px) {
+
+    .home {
+        gap: 20px;
+    }
+
+    .image {
+        width: 700px;
+        height: 700px;
+        margin-top: 80px;
+    }
+    .content p {
+        font-size: 25px;
+        margin-bottom: 60px;
     }
 
 }

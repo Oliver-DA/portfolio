@@ -9,7 +9,7 @@ export default function Education() {
     <div className={styles.container}>
       <h1 className = {`${styles.title} animate__animated animate__fadeInLeft`}>Education</h1>
       <div className={styles.cards}>
-        <div className={`${styles.educationCard} animate__animated animate__fadeInUp`}>
+        <div className={`${styles.educationCard} animate__animated animate__fadeInLeft`}>
           <Image
             src={"/images/treehouse.png"}
             width={150}
@@ -22,7 +22,7 @@ export default function Education() {
             <a className={styles.certificate}>Certificate</a>
           </Link>
         </div>
-        <div className={`${styles.educationCard} animate__animated animate__fadeInUp`}>
+        <div className={`${styles.educationCard} animate__animated animate__fadeInDown`}>
           <Image
             src={"/images/udemy-logo.png"}
             width={120}

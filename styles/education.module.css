@@ -110,5 +110,26 @@
         grid-template-areas: 
         "title .",
         "educationCard educationCard";
+        margin-top: 80px;
     }
+}
+
+@media(min-width: 1400px) {
+
+    .desc {
+        font-size: 30px;
+    }
+
+    .container::after {
+        top: 20%;
+        left: 13%;
+        font-weight: bold;
+        opacity: .2;
+        z-index: -3;
+    }
+
+    .certificate {
+        font-size: 20px;
+    }
+    
 }

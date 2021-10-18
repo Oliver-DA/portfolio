@@ -114,3 +114,32 @@
         width: 95%;
     }
 }
+
+@media(min-width: 1400px) {
+
+    .content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        text-align: inherit;
+        margin: 0;
+        gap: 20px;
+    }
+
+    .image {
+        width: 700px;
+        height: 600px;
+    }
+
+    .content p {
+        font-size: 22px;
+    }
+
+    .container::after {
+        top: 20%;
+        left: 14.5%;
+        font-weight: bold;
+        opacity: .2;
+        z-index: -3;
+    }
+}

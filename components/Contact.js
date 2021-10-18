@@ -43,7 +43,7 @@ export default function Contact() {
   return (
 
     <div className={styles.container}>
-      <div className={`${styles.image} animate__animated animate__fadeInRight`}>
+      <div className={`${styles.image} animate__animated animate__fadeInDown`}>
         <Image
           src={"/images/email.png"}
           width={400}
@@ -52,7 +52,7 @@ export default function Contact() {
         />
       </div>
       <div
-        className={`${styles.imageTwo} animate__animated animate__fadeInRight`}
+        className={`${styles.imageTwo} animate__animated animate__fadeInDown`}
       >
         <Image
           src={"/images/email1.png"}

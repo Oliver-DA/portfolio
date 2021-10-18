@@ -114,6 +114,7 @@
     .container {
         display: grid;
         grid-template-columns: 1fr 500px;
+        margin-top: 80px;
     }
     .image {
         z-index: -100;
@@ -121,4 +122,15 @@
         align-self: end;
         margin-top: 200px;
     }
+}
+
+@media(min-width: 1400px) {
+
+    .container::after {
+        top: 20%;
+        font-weight: bold;
+        opacity: .2;
+        z-index: -3;
+    }
+    
 }

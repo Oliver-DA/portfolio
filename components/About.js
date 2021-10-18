@@ -19,7 +19,7 @@ export default function About() {
           </Link>
         </div>
         <div
-          className={`${styles.image} animate__animated animate__fadeInRight`}
+          className={`${styles.image} animate__animated animate__fadeInDown`}
         >
           <Image
             src={"/images/about.png"}
